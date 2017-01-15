@@ -15,9 +15,9 @@
         </Grid.RowDefinitions>
         <Image Source="Assets/logo-4800px.png.png" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2">
-            <TextBlock FontSize="144" FontWeight="Bold" Text="€" />
-            <TextBlock FontSize="144" FontWeight="Bold" Text="..." Margin="20,0" x:Name="_textBlockPrice" />
-            <TextBlock FontSize="144" FontWeight="Bold" Text="◆" VerticalAlignment="Center" x:Name="_textBlockArrow" />
+            <TextBlock FontSize="72" FontWeight="Bold" Text="€" />
+            <TextBlock FontSize="72" FontWeight="Bold" Text="..." Margin="20,0" x:Name="_textBlockPrice" />
+            <TextBlock FontSize="72" FontWeight="Bold" Text="◆" VerticalAlignment="Center" x:Name="_textBlockArrow" />
         </StackPanel>
     </Grid>
 </Page>

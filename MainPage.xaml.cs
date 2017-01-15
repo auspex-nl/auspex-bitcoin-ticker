@@ -56,7 +56,7 @@ namespace Auspex.Bitcoin.Ticker
             try
             {
                 HttpClient client = new HttpClient();
-                string jsonData = await client.GetStringAsync(new Uri("https://api.coindesk.com/v1/bpi/currentprice.json"));
+                string jsonData = await client.GetStringAsync(new Uri("http://api.coindesk.com/v1/bpi/currentprice.json"));
 
                 var price = JsonConvert.DeserializeObject<PriceData>(jsonData);
 
